@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<he>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <link rel="stylesheet" type="text/css" href="mapa.css">
+    <link rel="stylesheet" type="text/css" href="Lenin_Prueba_Ingreso-Leaflet-MiniMap/dist/control.Minimap.min.css">
+   
+    <title>Yopal</title>
+    <h1>Localizar el mapa en el municipio de YOPAL</h1>
+
+    <select name="select_location" id="select_location" ></select>
+        <option value="-1">seleccione el Lugar</option>
+        <option value="5.317970506163193,-72.39509582519531">Yopal-Casanare</option>
+        <option value="5.338566321313695,-72.39553570747375">Yopal-Centro></option>
+    </select>
+</head>
+<body>
+
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <script src = "Lenin_Prueba_Ingreso-Leaflet-MiniMap/dist/control.Minimap.js"  ></script>
+    <script src ="layers/ucodigo.js" ></script>
+    <script src ="layers/r_perimetro.js"></script>  
+    <script src = "mapa.js"></script>
+</body>
+</html>
